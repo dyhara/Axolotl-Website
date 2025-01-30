@@ -1,0 +1,77 @@
+@charset "utf-8";
+/*element selectors*/
+ html {
+    background-color: #FBE7EB;
+} 
+h1 { 
+    font-family: arial, verdana, sans-serif;
+    text-align: center;
+    border-style: hidden;
+    border-color: #EBA1B2;
+}
+h2 {
+    color: #A44A5F;
+    font-family: helvetica, arial, verdana, sans-serif;
+    text-align: center;
+}
+ /*multiple tag selectors*/
+img, embed {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    
+}
+iframe, audio, video {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    
+}
+ /*descendant tag selectors*/
+nav ul li {
+    margin: 2px;
+    padding: 1px;
+    font-size: 15px;
+    list-style-type: none;
+}
+ol li em {
+    margin: 3px;
+    padding: 3px;
+    font-size: 18px;
+    font-family: "brush script m7", cursive;
+}
+p > span {
+    text-decoration: underline;
+    font-style: italic;
+}
+ /*ID selectors*/
+#habitats {
+    text-align: center;
+    text-decoration: none;
+}
+
+ /*class selectors*/
+.image_border {
+    border: 2px solid black;
+}
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+.floatleft {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: left;
+}
+.floatright {
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+}

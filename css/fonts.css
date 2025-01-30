@@ -1,0 +1,45 @@
+ /*"playfair display" google font*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Raleway:ital@0;1&display=swap');
+    
+h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+ /*"cormorant" google font*/
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
+
+h1 {
+    font-family: "Cormorant", serif;
+    font-weight: bolder;
+    font-style: normal;
+    color: #7A1D33;
+    font-size: 40px;
+    text-shadow: 2px #000000;
+}
+
+ /*"aileron" font squirrel*/
+@font-face {
+    font-family: 'aileronregular';
+    src: url('../fonts/aileron-regular-webfont.woff2') format('woff2'),
+         url('../fonts/aileron-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p {
+    font-family: 'montserratregular';
+    font-size: 13px;
+    padding: 2px;
+}
+
+ /*"montserrat" font squirrel*/
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
